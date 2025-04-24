@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula CSS</title>
+
+    <style>
+        h1 {
+            color: blue;
+            background-color: aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+        
+        }
+
+        #ParagrafoUnico{
+            font-size: 40px;
+            font-weight: 1900;
+            color: #c7ec10;
+        }
+       
+        .Classe {
+            font-family: sans-serif;
+            font-style: italic;
+            color: orangered !important;
+
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        .grid-item {
+            background-color: #c7ec10;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Aula CSS</h1>
+    <h1>Aula CSS</h1>
+    <h1>Aula CSS</h1>
+    <h1>Aula CSS</h1>
+
+    <h2 id="ParagrafoUnico">Aula CSS</h2>
+    <h2 class="Classe" >Aula CSS</h2>
+    <h2>Aula CSS</h2>
+
+    <p class="Classe" style="color: azure;">Testando</p>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+
+</body>
+</html>
